@@ -5,7 +5,14 @@
  * Writes 1000 messages per file
 
 ##Usage
-Command line:
+
+To build:
+```
+mvn clean package
+```
+
+To run:
+
 ```
 "hadoop jar /target/hadoop-consumer-0.0.1-SNAPSHOT-jar-with-dependencies.jar $zookeeperserver:port $consumername $topic"
 ```
