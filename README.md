@@ -1,7 +1,9 @@
 Hadoop Consumer
 ===============
 -Consumes Kafka messages from any provided server and topic, writes them to ~/kafka/ in HDFS
+
 -Writes each received message to a unique line
+
 -Writes 1000 messages per file
 
 Usage

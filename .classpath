@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/DataGenerator-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/hadoop-common-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/hadoop-mapreduce-client-core-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/jopt-simple-3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/kafka_2.8.0-0.8.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/metrics-core-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/scala-library-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/snappy-java-1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/zkclient-0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Rohan/Desktop/Work/Jars/zookeeper-3.3.4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
