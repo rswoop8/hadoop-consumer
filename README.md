@@ -13,7 +13,7 @@ mvn clean package
 
 To run:
 ```
-"hadoop jar /target/hadoop-consumer-0.0.1-SNAPSHOT-jar-with-dependencies.jar $zookeeperserver:port $consumername $topic"
+hadoop jar /target/hadoop-consumer-0.0.1-SNAPSHOT-jar-with-dependencies.jar $zookeeperserver:port $consumername $topic
 ```
 
 Arguments:
