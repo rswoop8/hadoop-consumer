@@ -12,11 +12,11 @@ mvn clean package
 ```
 
 To run:
-
 ```
 "hadoop jar /target/hadoop-consumer-0.0.1-SNAPSHOT-jar-with-dependencies.jar $zookeeperserver:port $consumername $topic"
 ```
 
+Arguments:
 `$zookeeperserver:port - zookeeper server to listen to`
 
 `$consumername - consumer group name to be used, should be unique in order to receive messages`
