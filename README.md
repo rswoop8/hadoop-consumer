@@ -7,7 +7,7 @@
 
  * First writes files locally, until 1000 messages have been received
  * After the thousandth message is received, the file is written to HDFS and deleted locally
- * A log file is kept locally to maintain correct numbering of files in case of a crash
+ * A log file is kept locally at ~/kafka/ to maintain correct numbering of files in case of a crash
 
 ##Usage
 
