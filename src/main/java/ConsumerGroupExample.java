@@ -23,7 +23,7 @@ public class ConsumerGroupExample {
         if (consumer != null) consumer.shutdown();
         if (executor != null) executor.shutdown();
     }
- 
+
     public void run(int a_numThreads) {
         Map<String, Integer> topicCountMap = new HashMap<String, Integer>();
         topicCountMap.put(topic, new Integer(a_numThreads));
