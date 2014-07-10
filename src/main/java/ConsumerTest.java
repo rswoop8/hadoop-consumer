@@ -69,6 +69,7 @@ public class ConsumerTest implements Runnable {
 				e.printStackTrace();
 			}
         }
+        
         else {
         	try {
                 //Create FileWriter and BufferedWriter, set FileWriter append to true

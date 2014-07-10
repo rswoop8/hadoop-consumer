@@ -29,6 +29,11 @@ Arguments:
 
 `$topic - topic to consume`
 
+###Kafka
+
+ * [Kafka Documentation](http://kafka.apache.org/documentation.html)
+ * [Kafka Server Quickstart](http://kafka.apache.org/documentation.html#quickstart)
+
 ----------------------------------------------------------------------------------------------------
 
 Multiple instances can be started to consume multiple topics or consume from different servers
